@@ -1,0 +1,8 @@
+<section>
+  <div class="bordered">
+    <strong>Λέξεις με μονό μήκος</strong>
+    <hr />
+    <p *ngIf="words.length == 0">Δεν υπάρχουν</p>
+    <p *ngFor="let word of words">{{ word }}</p>
+  </div>
+</section>
